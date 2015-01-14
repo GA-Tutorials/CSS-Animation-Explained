@@ -5,7 +5,7 @@
 - BROWSER SUPPORT
 
 ##BASIC SYNTAX
-whatever
+whatever dud
 ##TRANSITION
 
 ##ANIMATION
