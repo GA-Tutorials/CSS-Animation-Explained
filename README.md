@@ -12,12 +12,21 @@ You can call the animation event on any html element as a css property - just as
 ```css
 
   .element-to-animate {
-    animation: test 1s 2s 3 alternate backwards;
+    animation: your-animation 1s 2s 3 alternate backwards;
   }
 
 ```
 The shorthand above has the following values: name of the animation, duration, delay, duration count, fill-mode, and direction.
 
+You can then use keyframes (think of a timeline) to change different css characteristics various times.
+
+```css
+@keyframes you-animation {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+```
 ###Options
 
 
