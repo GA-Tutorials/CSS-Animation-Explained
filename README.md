@@ -22,9 +22,9 @@ The shorthand above has the following values: name of the animation, duration, d
 
 | timing-function     | 1 | 2 | 3 | 4 |
 | duration & delay    |---|---|---|---|
-| duration-count          |   |   |   |   |
-| fill count                   |   |   |   |   |
-| animation-direction                  |   |   |   |   |
+| duration-count      |   |   |   |   |
+| fill count          |   |   |   |   |
+| animation-direction |   |   |   |   |
 
 ##TRANSITION
 
