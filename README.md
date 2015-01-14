@@ -6,10 +6,12 @@
 
 ##BASIC SYNTAX
 
+### Shorthand Notation
+
 ```css
 
   .element-to-animate {
-    animation: NAME-YOUR-ANIMATION 5s infinite;
+    animation: test 1s 2s 3 alternate backwards
   }
 
 ```
