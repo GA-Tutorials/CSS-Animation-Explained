@@ -27,6 +27,8 @@ You can then use keyframes (think of a timeline) to change different css charact
 }
 
 ```
+###Vendor Prefixes
+
 Unfortunately browser support isn't great at this time, so don't forget to include the following vendor prefixes for your keyframe declaration as well as when calling the animation on the elements.
 
 ```css
