@@ -27,6 +27,8 @@ You can then use keyframes (think of a timeline) to change different css charact
 }
 
 ```
+So, at at the start of the animation, the opacity of your element will be 0, and at 100% completion, your element will have an opacity of 1.
+
 ###Vendor Prefixes
 
 Unfortunately browser support isn't great at this time, so don't forget to include the following vendor prefixes for your keyframe declaration as well as when calling the animation on the elements.
