@@ -11,10 +11,12 @@
 ```css
 
   .element-to-animate {
-    animation: test 1s 2s 3 alternate backwards
+    animation: test 1s 2s 3 alternate backwards;
   }
 
 ```
+
+You can call the animation event on any html element as a css property - just as if you were changing the background color.
 
 ##TRANSITION
 
