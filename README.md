@@ -6,7 +6,7 @@
 
 ##BASIC SYNTAX
 
-### Shorthand Notation
+###Shorthand Notation
 You can call the animation event on any html element as a css property - just as if you were changing the background color.
 
 ```css
@@ -18,11 +18,13 @@ You can call the animation event on any html element as a css property - just as
 ```
 The shorthand above has the following values: name of the animation, duration, delay, duration count, fill-mode, and direction.
 
-| timing-function   | 1 | 2 | 3 | 4 |
-|---                |---|---|---|---|
-|                   |   |   |   |   |
-|                   |   |   |   |   |
-|                   |   |   |   |   |
+###Options
+
+| timing-function     | 1 | 2 | 3 | 4 |
+| duration & delay    |---|---|---|---|
+| duration-count          |   |   |   |   |
+| fill count                   |   |   |   |   |
+| animation-direction                  |   |   |   |   |
 
 ##TRANSITION
 
