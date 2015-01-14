@@ -84,3 +84,6 @@ The animation shorthand property is a comma-separated list of animation definiti
 - animation-name	Specifies the name of the @keyframes animation	3
 - animation-play-state	Specifies whether the animation is running or paused	3
 - animation-timing-function	Specifies the speed curve of the animation	3
+
+##SOURCES
+http://css-tricks.com/almanac/properties/a/animation/
