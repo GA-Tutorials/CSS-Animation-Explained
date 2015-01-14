@@ -1,9 +1,18 @@
 # CSS-Explained
 ##Intro
-- IS
+###IS
 
-- DOES
-- BROWSER SUPPORT
+The biggest change that is currently planned with CSS level 3 is the introduction of modules. The advantage to modules is that it (supposedly) allows the specification to be completed and approved more quickly, because segments are completed and approved in chunks. This also allows browser and user-agent manufacturers to support sections of the specification but keep their code bloat to a minimum by only supporting those modules that make sense. For example, a text reader wouldn't need to include modules that only define how an element is going to display visually. But even if it only included the aural modules, it would still be a standards-compliant CSS 3 tool.
+###DOES
+
+###BROWSER SUPPORT
+
+- #box {
+ -webkit-animation: NAME-YOUR-ANIMATION 5s infinite; /* Safari 4+ */
+ -moz-animation:    NAME-YOUR-ANIMATION 5s infinite; /* Fx 5+ */
+ -o-animation:      NAME-YOUR-ANIMATION 5s infinite; /* Opera 12+ */
+ animation:         NAME-YOUR-ANIMATION 5s infinite; /* IE 10+, Fx 29+ */
+}
 
 ##BASIC SYNTAX
 
