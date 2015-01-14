@@ -1,1 +1,11 @@
 # CSS-Explained
+##Intro
+- IS
+- DOES
+- BROWSER SUPPORT
+
+##BASIC SYNTAX
+
+##TRANSITION
+
+##ANIMATION
