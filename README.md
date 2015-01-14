@@ -16,9 +16,9 @@ You can call the animation event on any html element as a css property - just as
   }
 
 ```
-The shorthand above has the following values: name of the animation, duration, delay, duration count, fill-mode, and direction.
+The shorthand above has the following values: name of the animation, duration, delay, duration count, fill-mode, and direction (Check for a table of options below).
 
-You can then use keyframes (think of a timeline) to change different css characteristics various times.
+You can then use keyframes (think of a timeline) to change different css characteristics at various times.
 
 ```css
 @keyframes you-animation {
@@ -27,8 +27,37 @@ You can then use keyframes (think of a timeline) to change different css charact
 }
 
 ```
-###Options
+Unfortunately browser support isn't great at this time, so don't forget to include the following vendor prefixes for your keyframe declaration as well as when calling the animation on the elements.
 
+```css
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+```
+
+```css
+#box {
+  -webkit-animation: NAME-YOUR-ANIMATION 5s infinite;
+  -moz-animation:    NAME-YOUR-ANIMATION 5s infinite;
+  -o-animation:      NAME-YOUR-ANIMATION 5s infinite;
+  animation:         NAME-YOUR-ANIMATION 5s infinite;
+}
+```
+
+###Options
 
 | timing-function   |  duration & delay | duration-count   | fill count     |animation-direction   |
 |---|---|---|---|---|
