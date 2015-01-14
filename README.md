@@ -6,7 +6,13 @@
 
 ##BASIC SYNTAX
 
-###
+'''css
+
+  .element-to-animate {
+    animation: NAME-YOUR-ANIMATION 5s infinite;
+  }
+
+'''
 
 ##TRANSITION
 
