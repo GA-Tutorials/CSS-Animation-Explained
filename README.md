@@ -20,11 +20,12 @@ The shorthand above has the following values: name of the animation, duration, d
 
 ###Options
 
-| timing-function     |---| 2 | 3 | 4 |
-| duration & delay    |---|   |   |   |
-| duration-count      |---|   |   |   |
-| fill count          |---|   |   |   |
-| animation-direction |---|   |   |   |
+
+| timing-function   |  duration & delay | duration-count   | fill count     |animation-direction   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 ##TRANSITION
 
