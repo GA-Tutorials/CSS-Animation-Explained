@@ -23,9 +23,8 @@ The shorthand above has the following values: name of the animation, duration, d
 
 | timing-function   |  duration & delay | duration-count   | fill count     |animation-direction   |
 |---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| ease, ease-out, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) (e.g. cubic-bezier(0.5, 0.2, 0.3, 1.0))  |  Xs or Xms |  X | forwards, backwards, both, none  |  normal, alternate |
+
 
 ##TRANSITION
 
