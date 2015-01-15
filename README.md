@@ -1,9 +1,20 @@
 # CSS-Explained
-##Intro
-###IS
 
-The biggest change that is currently planned with CSS level 3 is the introduction of modules. The advantage to modules is that it (supposedly) allows the specification to be completed and approved more quickly, because segments are completed and approved in chunks. This also allows browser and user-agent manufacturers to support sections of the specification but keep their code bloat to a minimum by only supporting those modules that make sense. For example, a text reader wouldn't need to include modules that only define how an element is going to display visually. But even if it only included the aural modules, it would still be a standards-compliant CSS 3 tool.
-###DOES
+##Intro
+
+CSS3 has been split into "modules". It contains the "old CSS specification" (which has been split into smaller pieces). In addition, new modules are added. This also allows the browser to support sections of the specification but keep their code block to a minimum by only supporting those modules that make sense. Some of the CSS3 modules are:
+
+Selectors
+- Box Model
+- Backgrounds and Borders
+- Image Values and Replaced Content
+- Text Effects
+- 2D/3D Transformations
+- Animations
+- Multiple Column Layout
+- User Interface
+
+What is interesting about selectors is they allow designers/developers to select on much more specific levels of the document.
 
 ###BROWSER SUPPORT
 
