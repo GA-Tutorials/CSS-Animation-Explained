@@ -19,12 +19,11 @@ What is interesting about selectors is they allow designers/developers to select
 
 ###BROWSER SUPPORT
 
-- #box {
- -webkit-animation: NAME-YOUR-ANIMATION 5s infinite; /* Safari 4+ */
- -moz-animation:    NAME-YOUR-ANIMATION 5s infinite; /* Fx 5+ */
- -o-animation:      NAME-YOUR-ANIMATION 5s infinite; /* Opera 12+ */
- animation:         NAME-YOUR-ANIMATION 5s infinite; /* IE 10+, Fx 29+ */
-}
+- webkit-animation: NAME-YOUR-ANIMATION 5s infinite; /* Safari 4+ */
+- moz-animation:    NAME-YOUR-ANIMATION 5s infinite; /* Fx 5+ */
+- o-animation:      NAME-YOUR-ANIMATION 5s infinite; /* Opera 12+ */
+- animation:         NAME-YOUR-ANIMATION 5s infinite; /* IE 10+, Fx 29+ */
+
 
 ##BASIC SYNTAX
 
@@ -237,4 +236,7 @@ The animation shorthand property is a comma-separated list of animation definiti
 - animation-timing-function	Specifies the speed curve of the animation	3
 
 ##SOURCES
-http://css-tricks.com/almanac/properties/a/animation/
+- [W3C](http://www.w3.org/TR/css3-animations/)
+- [Safari CSS Reference](http://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariCSSRef/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-_webkit_animation)
+- [MDN](https://developer.mozilla.org/en/css/css_animations)
+- [Animation](http://css-tricks.com/almanac/properties/a/animation/)
