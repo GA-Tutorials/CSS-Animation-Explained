@@ -100,6 +100,7 @@ a:hover {
 	color: yellow;
 }
 ```
+For example, if you change the color of an element from red to yellow, usually the change is instantaneous.
 ```css
 a {
 	color: red;
@@ -112,13 +113,17 @@ a:hover {
 ```
 This is a transition done over one second. We are changing a property, in this case the color property over an amount time. 
 
-Enables the transitions of properties from one state to the next over a defined length of time.
+CSS transitions, which are part of the CSS3 set of specifications, provide a way to control animation speed when changing CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time.
+
+The transitions of properties changes from one state to the next over a defined length of time.
 
 - transition-property: properties (or 'all') that transition
 - transition-duration: s or ms it takes to transition
 - transition-timing-function: bezier curve to transition
 - transition-delay: s or ms before transition starts
 - transition: shorthand for 4 transition properties
+
+CSS transitions let you decide which properties to animate (by listing them explicitly), when the animation will start (by setting a delay), how long the transition will last (by setting a duration), and how the transition will run (by defining a timing function, e.g. linearly or quick at the beginning, slow at the end).
 
 ###What can be transitioned?
 
@@ -144,7 +149,7 @@ code:hover {
 	display: none;
 }
 ```
-They are working towards making everything transitionable, but at the moment anything that has intermediate values can be transitioned. In this example code opacity: 1 and code opacity: 0 the midpoint would be 0.5. In code halfway, :halfway is not a real psudeo element it was used for this example. There is no midway point between display: block and display: none.
+Eventually the idea is to make everything transitionable, but at the moment anything that has intermediate values can be transitioned. In this example code{opacity: 1;} and code:hover{opacity: 0;} the midpoint would be 0.5. In code:halfway{}, :halfway is not a real psudeo element it was used for this example. There is no midway point between display: block and display: none.
 
 ###Two values that have REAL intermediary values
 ```css
@@ -240,3 +245,5 @@ The animation shorthand property is a comma-separated list of animation definiti
 - [Safari CSS Reference](http://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariCSSRef/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-_webkit_animation)
 - [MDN](https://developer.mozilla.org/en/css/css_animations)
 - [CSS-Tricks](http://css-tricks.com/almanac/properties/a/animation/)
+- [Estelle's Github](estelle.github.io)
+- [CSS3 Animation Examples](http://www.creativebloq.com/css3/animation-with-css3-712437)
