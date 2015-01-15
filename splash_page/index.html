@@ -9,6 +9,10 @@
 </head>
 <body>
 
+  <audio controls="controls" id="audio">
+    <source src="theme.mp3" type="audio/mp3" />
+  </audio>
+
 <header class="absolute-center">
   <h1 class="first fadeInOut absolute-center">CSS Animations</h1>
   <h2 class="second fadeInOut absolute-center">Presented By</h2>
@@ -42,6 +46,15 @@
   <h5 class="seventh rotateInUpRight"> Styling </h5>
 
 </section>
+
+<script>
+  var audio = document.getElementById("audio");
+
+  window.setTimeout(function(){
+    audio.play();
+  }, 5000);
+
+</script>
 
 </body>
 </html>
