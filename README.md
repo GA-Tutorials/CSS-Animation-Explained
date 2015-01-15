@@ -123,6 +123,8 @@ The transitions of properties changes from one state to the next over a defined 
 - transition-delay: s or ms before transition starts
 - transition: shorthand for 4 transition properties
 
+CSS transitions let you decide which properties to animate (by listing them explicitly), when the animation will start (by setting a delay), how long the transition will last (by setting a duration), and how the transition will run (by defining a timing function, e.g. linearly or quick at the beginning, slow at the end).
+
 ###What can be transitioned?
 
 ```css
