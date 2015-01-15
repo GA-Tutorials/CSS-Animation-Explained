@@ -147,7 +147,7 @@ code:hover {
 	display: none;
 }
 ```
-Eventually the idea is to make everything transitionable, but at the moment anything that has intermediate values can be transitioned. In this example code opacity: 1 and code opacity: 0 the midpoint would be 0.5. In code halfway, :halfway is not a real psudeo element it was used for this example. There is no midway point between display: block and display: none.
+Eventually the idea is to make everything transitionable, but at the moment anything that has intermediate values can be transitioned. In this example code{opacity: 1;} and code:hover{opacity: 0;} the midpoint would be 0.5. In code:halfway{}, :halfway is not a real psudeo element it was used for this example. There is no midway point between display: block and display: none.
 
 ###Two values that have REAL intermediary values
 ```css
