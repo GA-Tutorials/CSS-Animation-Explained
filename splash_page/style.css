@@ -183,6 +183,13 @@ header {
   animation-delay: 10s;
 }
 
+audio {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  visibility: hidden;
+}
+
 /****** ANIMATIONS *******/
 .first {
   -webkit-animation-duration: 5s;
