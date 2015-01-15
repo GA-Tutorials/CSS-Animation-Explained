@@ -1,8 +1,29 @@
-# CSS-Explained
+![](https://github.com/mrbernz/CSS-Animation-Explained/blob/master/animaniacs.png "CSS Animaniacs")
+# CSS3-Explained
+
 ##Intro
-- IS
-- DOES
-- BROWSER SUPPORT
+
+CSS3 has been split into "modules". It contains the "old CSS specification" (which has been split into smaller pieces). In addition, new modules are added. This also allows the browser to support sections of the specification but keep their code block to a minimum by only supporting those modules that make sense. Some of the CSS3 modules are:
+
+Selectors
+- Box Model
+- Backgrounds and Borders
+- Image Values and Replaced Content
+- Text Effects
+- 2D/3D Transformations
+- Animations
+- Multiple Column Layout
+- User Interface
+
+What is interesting about selectors is they allow designers/developers to select on much more specific levels of the document.
+
+###BROWSER SUPPORT
+
+- webkit-animation: NAME-YOUR-ANIMATION 5s infinite; /* Safari 4+ */
+- moz-animation:    NAME-YOUR-ANIMATION 5s infinite; /* Fx 5+ */
+- o-animation:      NAME-YOUR-ANIMATION 5s infinite; /* Opera 12+ */
+- animation:         NAME-YOUR-ANIMATION 5s infinite; /* IE 10+, Fx 29+ */
+
 
 ##BASIC SYNTAX
 
@@ -215,4 +236,7 @@ The animation shorthand property is a comma-separated list of animation definiti
 - animation-timing-function	Specifies the speed curve of the animation	3
 
 ##SOURCES
-http://css-tricks.com/almanac/properties/a/animation/
+- [W3C](http://www.w3.org/TR/css3-animations/)
+- [Safari CSS Reference](http://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariCSSRef/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-_webkit_animation)
+- [MDN](https://developer.mozilla.org/en/css/css_animations)
+- [CSS-Tricks](http://css-tricks.com/almanac/properties/a/animation/)
