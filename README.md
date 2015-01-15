@@ -100,6 +100,7 @@ a:hover {
 	color: yellow;
 }
 ```
+For example, if you change the color of an element from red to yellow, usually the change is instantaneous.
 ```css
 a {
 	color: red;
@@ -112,7 +113,9 @@ a:hover {
 ```
 This is a transition done over one second. We are changing a property, in this case the color property over an amount time. 
 
-Enables the transitions of properties from one state to the next over a defined length of time.
+CSS transitions, which are part of the CSS3 set of specifications, provide a way to control animation speed when changing CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time.
+
+The transitions of properties changes from one state to the next over a defined length of time.
 
 - transition-property: properties (or 'all') that transition
 - transition-duration: s or ms it takes to transition
