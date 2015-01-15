@@ -240,3 +240,5 @@ The animation shorthand property is a comma-separated list of animation definiti
 - [Safari CSS Reference](http://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariCSSRef/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-_webkit_animation)
 - [MDN](https://developer.mozilla.org/en/css/css_animations)
 - [CSS-Tricks](http://css-tricks.com/almanac/properties/a/animation/)
+- [Estelle's Github](estelle.github.io)
+- [CSS3 Animation Examples](http://www.creativebloq.com/css3/animation-with-css3-712437)
