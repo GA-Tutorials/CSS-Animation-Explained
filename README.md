@@ -1,5 +1,5 @@
 ![](https://github.com/mrbernz/CSS-Animation-Explained/blob/master/animaniacs.png "CSS Animaniacs")
-# CSS-Explained
+# CSS3-Explained
 
 ##Intro
 
